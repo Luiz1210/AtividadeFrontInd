@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #3A3837 ;
+}
+
+.navbar{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #65439B;
+}
+
+.container_logo{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    height: 100%;
+
+}
+
+.container_lista{
+    background-color: red;
+    display: flex;
+    flex-direction:row;
+    height: 100%;
+    width: 30%;
+}
+
+.container_lista ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    gap: 10px;
+}
+
+.container_lista li {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
