@@ -2,52 +2,100 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .container{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(0,36,26,1) 0%, rgba(14,121,9,1) 35%, rgba(0,255,96,1) 100%);
 
-    background-color: #3A3837 ;
+      
 }
 
 .navbar{
     width: 100%;
-    height: 8%;
+    height: 9%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background: linear-gradient(90deg, rgba(0,36,26,1) 0%, rgba(14,121,9,1) 35%, rgba(0,255,96,1) 100%);
 
-    background-color: #65439B;
+
 }
 
 .container_logo{
-    background-color: aqua;
+    
     display: flex;
     flex-direction: row;
     gap: 12px;
     height: 100%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
 
 }
 
 .container_lista{
-    background-color: red;
+    
     display: flex;
     flex-direction:row;
     height: 100%;
-    width: 30%;
+    width: 15%;
 }
 
-.container_lista ul{
+.botoes{
+    gap: 20px;
+    margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: row;
-    font-size: 2rem;
-    gap: 10px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.container_lista li {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+.container2 {
+    width: 100%;
+    /* margin: 0 auto; */
+    height: 100vh;
+    padding: 0.5rem;
+    background-image:url('assest/Grama\(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    overflow: auto;
+}
+.container2 p{
+    text-align: center;
+    justify-self: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+
+.clubes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.clube {
+    align-content: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.clube img {
+    max-width: 100%;
+    height: auto;
 
 }
+
+
