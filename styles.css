@@ -140,12 +140,21 @@
 footer {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    gap: 90px;
     height: 6rem;
     padding: 1rem;
     background-color: rgb(49, 46, 49);
     margin-top: 0.2rem;
     color: white;
+
+}
+
+.redes {
+    height: 100%;
+    width: 15%;
+    gap: 90px;
+
 
 }
 
@@ -157,4 +166,6 @@ footer p{
 footer ul {
     list-style: none;
     display: flex;
+    gap: 90px;
+
 }
