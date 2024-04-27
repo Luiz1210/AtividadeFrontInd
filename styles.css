@@ -58,7 +58,8 @@
 
 .container2 {
     width: 100%;
-    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;/
     height: 100vh;
     padding: 0.5rem;
     background-image:url('assest/Grama\(1\).jpg');
@@ -76,13 +77,16 @@
     font-weight: bolder;
 }
 
-h1 {
+.container2 h1 {
     text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .clubes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -98,4 +102,59 @@ h1 {
 
 }
 
+.containerdesenvolvedor{
+    
+    gap: 20px;
+    background-image: linear-gradient(90deg, rgba(0,36,26,1) 0%, rgba(14,121,9,1) 35%, rgba(0,255,96,1) 100%);
+    text-align: center;
+    justify-self: center;
+    
+}
 
+.containerdesenvolvedor img{
+    margin-right: 20px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.containerdesenvolvedor h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.containerdesenvolvedor p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+.dev{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 6rem;
+    padding: 1rem;
+    background-color: rgb(49, 46, 49);
+    margin-top: 0.2rem;
+    color: white;
+
+}
+
+footer p{
+    text-align: justify;
+    list-style: ;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
